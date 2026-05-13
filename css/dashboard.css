@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background: #ffffff;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0578FA;
+}
+
+header .logo a {
+    text-decoration: none;
+}
+
+header .logout a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #63758C;
+    text-decoration: none;
+}
+
+main {
+    background-color: #E0F5FF;
+    padding: 36px 60px 40px;
+    min-height: calc(100vh - 72px);
+}
+
+.title {
+    margin-bottom: 55px;
+}
+
+.title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0D213D;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 260px;
+    height: 155px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(13, 33, 61, 0.08);
+    padding: 18px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+}
+
+.blue {
+    background-color: #0578FA;
+}
+
+.green {
+    background-color: #22C55E;
+}
+
+.red {
+    background-color: #EF4444;
+}
+
+.purple {
+    background-color: #7357F6;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D213D;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #63758C;
+    line-height: 1.3;
+}
+
+.visits {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 32px;
+    box-shadow: 0 8px 24px rgba(13, 33, 61, 0.08);
+}
+
+.visits h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D213D;
+    margin-bottom: 30px;
+}
+
+.visits table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.visits th,
+.visits td {
+    text-align: left;
+    padding: 18px 24px;
+}
+
+.visits th {
+    background-color: #DDF4FF;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D213D;
+}
+
+.visits td {
+    font-size: 14px;
+    color: #63758C;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.visits thead th:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.visits thead th:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
