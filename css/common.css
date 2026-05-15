@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background: #ffffff;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0578FA;
+}
+
+header .logout a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #63758C;
+}
+
+main {
+    background-color: #E0F5FF;
+    padding: 36px 60px 40px;
+    min-height: calc(100vh - 72px);
+}
+
+.title {
+    margin-bottom: 55px;
+}
+
+.title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0D213D;
+}
+
+/* Common color blocks */
+.blue {
+    background-color: #0578FA;
+}
+
+.green {
+    background-color: #22C55E;
+}
+
+.red {
+    background-color: #EF4444;
+}
+
+.purple {
+    background-color: #7357F6;
+}
