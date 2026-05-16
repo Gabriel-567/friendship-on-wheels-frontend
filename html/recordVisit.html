@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friendship On Wheels</title>
+  <link rel="icon" href="../src/icon.svg">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/recordVisit.css">
+</head>
+
+<body>
+<header class="site-header">
+  <div class="logo"><h1>Friendship On Wheels</h1></div>
+  <div class="logout"><a>Logout</a></div>
+</header>
+
+<main class="record-page">
+  <section class="page-title">
+    <h1>Record Visit Outcome</h1>
+  </section>
+
+  <form class="record-form">
+    <div class="visit-card">
+      <h2>Selected Visit: Mary K.·North District·Wed 11:30</h2>
+
+      <ul class="outcome-list">
+        <li>
+          <label>
+            <input type="radio" name="outcome" value="completed">
+            Completed successfully
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="radio" name="outcome" value="no-answer">
+            No answer at door
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="radio" name="outcome" value="unwell">
+            Requestor seemed unwell
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="radio" name="outcome" value="not-delivered">
+            Meal not delivered
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="radio" name="outcome" value="other">
+            Other concern
+          </label>
+        </li>
+      </ul>
+
+      <div class="visit-notes">
+        <label for="visit-notes-input" class="notes-label">Visit Notes</label>
+        <input
+                id="visit-notes-input"
+                type="text"
+                placeholder="Add short note for coordinator"
+        >
+      </div>
+    </div>
+
+    <div class="action-panel">
+      <button type="submit" class="btn btn-submit">
+        Submit Outcome
+      </button>
+
+      <button type="button" class="btn btn-alert">
+        Create Welfare Alert
+      </button>
+    </div>
+  </form>
+</main>
+</body>
+</html>
