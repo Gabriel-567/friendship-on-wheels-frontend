@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friendship On Wheels</title>
+    <link rel="icon" href="../src/icon.svg">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/coordinator.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="logo"><h1>Friendship On Wheels</h1></div>
+    <div class="logout"><a>Logout</a></div>
+</header>
+<div class="page-layout">
+    <aside class="sidebar">
+        <div class="nav">
+            <ul>
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="#">Districts</a></li>
+                <li><a href="#">Volunteers</a></li>
+                <li><a href="#">Requestors</a></li>
+                <li><a href="#">Weekly Schedule</a></li>
+                <li><a href="#">Scheduling Status</a></li>
+                <li><a href="#">Welfare Alert</a></li>
+                <li><a href="#">Report</a></li>
+                <li><a href="#">Logout</a></li>
+
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <section class="title">
+            <h1>Coordinator Dashboard</h1>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <div class="icon blue"></div>
+                <h2>Requestor Records</h2>
+                <p>Create, update and view requestor information.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon green"></div>
+                <h2>Volunteer Info</h2>
+                <p>View availability, workload and past assignments.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon orange"></div>
+                <h2>Generate Schedule</h2>
+                <p>Create weekly delivery schedules.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon red"></div>
+                <h2>Scheduling Status</h2>
+                <p>Review unresolved scheduling issues.</p>
+            </div>
+        </section>
+
+        <section class="visits">
+            <h2>Cross-district Schedule Status</h2>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>District</th>
+                    <th>Assigned</th>
+                    <th>Unassigned</th>
+                    <th>Alerts</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>North</td>
+                    <td>94%</td>
+                    <td>8</td>
+                    <td class="alert-text">3 Alerts</td>
+                </tr>
+
+                <tr>
+                    <td>Central</td>
+                    <td>97%</td>
+                    <td>4</td>
+                    <td class="alert-text">5 Alerts</td>
+                </tr>
+
+                <tr>
+                    <td>South</td>
+                    <td>91%</td>
+                    <td>12</td>
+                    <td class="alert-text">3 Alerts</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>

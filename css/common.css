@@ -52,3 +52,10 @@ main {
 .purple {
     background-color: #7357F6;
 }
+.orange {
+    background-color: #f9a21a;
+}
+
+.visits td.alert-text  {
+    color: #ED4545;
+}
