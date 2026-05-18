@@ -1,0 +1,141 @@
+.page-layout {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    background-color: #EAF8FD;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background-color: #0578FA;
+    padding: 36px 22px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 18px;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.92);
+
+    border-radius: 14px;
+    white-space: nowrap;
+}
+
+.sidebar a:hover {
+    background-color: #fff;
+    color: #0578FA;
+    box-shadow: 0 8px 20px rgba(0, 80, 180, 0.18);
+}
+
+/* Main Layout */
+main {
+    flex: 1;
+    padding: 44px 64px;
+    box-sizing: border-box;
+}
+
+.title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D213D;
+    margin-bottom: 44px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 44px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    padding: 26px;
+    box-sizing: border-box;
+
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(13, 33, 61, 0.08);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    margin-bottom: 28px;
+}
+
+.card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0D213D;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #63758C;
+    line-height: 1.4;
+}
+
+/* Button */
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn button {
+    width: 230px;
+    height: 50px;
+
+    border: none;
+    border-radius: 14px;
+    background-color: #1FC757;
+    color: #fff;
+
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-btn button:hover {
+    background-color: #18B64E;
+}
+
+/* Icon Colors */
+.blue {
+    background-color: #0578FA;
+}
+
+.green {
+    background-color: #22C55E;
+}
+
+.orange {
+    background-color: #F9A21A;
+}

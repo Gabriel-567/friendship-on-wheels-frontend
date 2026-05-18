@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friendship On Wheels/ Welfare Alert</title>
+    <link rel="icon" href="../src/icon.svg">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/welfarealert.css">
+</head>
+
+<body>
+<header class="site-header">
+    <div class="logo"><h1>Friendship On Wheels</h1></div>
+    <div class="logout"><a>Logout</a></div>
+</header>
+
+<div class="page-layout">
+    <aside class="sidebar">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Districts</a></li>
+                <li><a href="#">Volunteers</a></li>
+                <li><a href="#">Requestors</a></li>
+                <li><a href="#">Weekly Schedule</a></li>
+                <li><a href="#">Scheduling Status</a></li>
+                <li><a href="#">Welfare Alerts</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="welfare-page">
+        <section class="title">
+            <h1>Welfare Alerts</h1>
+        </section>
+
+        <section class="alerts-card">
+            <h2>Open Welfare Alerts</h2>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Requestor</th>
+                    <th>District</th>
+                    <th>Reason</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Mary K.</td>
+                    <td>North</td>
+                    <td>No answer</td>
+                    <td class="alert-open">Alert Open</td>
+                </tr>
+
+                <tr>
+                    <td>Peter L.</td>
+                    <td>Central</td>
+                    <td>Seemed unwell</td>
+                    <td class="alert-open">Alert Open</td>
+                </tr>
+
+                <tr>
+                    <td>Helen G.</td>
+                    <td>South</td>
+                    <td>Meal not delivered</td>
+                    <td>Follow-up</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="alert-actions">
+            <div class="detail-card">
+                <div class="icon red"></div>
+                <h2>Alert Detail</h2>
+                <p>Review notes, assign follow-up, phone requestor or close alert.</p>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn btn-follow">Assign Follow-up</button>
+                <button class="btn btn-close">Close Alert</button>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
